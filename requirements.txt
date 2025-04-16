@@ -2,7 +2,7 @@ streamlit
 opencv-python
 numpy
 tensorflow
-requests
-time
-json
-paho.mqtt
+# requests
+# time
+# json
+# paho.mqtt

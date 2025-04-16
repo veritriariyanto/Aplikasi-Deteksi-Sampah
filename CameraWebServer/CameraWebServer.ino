@@ -36,8 +36,8 @@
 // ===========================
 // Enter your WiFi credentials
 // ===========================
-const char *ssid = "Pak Kuncoro";
-const char *password = "sakarepmu";
+const char *ssid = "Novi";
+const char *password = "Novi12345678";
 
 void startCameraServer();
 void setupLedFlash(int pin);
@@ -136,6 +136,7 @@ void setup() {
   WiFi.begin(ssid, password);
   WiFi.setSleep(false);
 
+  Serial.print("WiFi connecting");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
