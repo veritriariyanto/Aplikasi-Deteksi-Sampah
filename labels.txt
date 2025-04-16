@@ -1,0 +1,3 @@
+0 organik
+1 anorganik
+2 tidakterdeteksi
